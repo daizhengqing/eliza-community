@@ -13,10 +13,11 @@
       pointerEvents: showHome ? 'auto' : 'none',
     }"
   >
-    <spank style="padding-left: 20px; font-size: 13px"
-      >eliza community</spank
+    <span style="padding-left: 20px; font-size: 14px"
+      >eliza community</span
     >
-    <div style="display: flex; gap: 12px; padding-right: 20px">
+    <div style="display: flex; gap: 12px; padding-right: 20px; align-items: center;">
+      <a target="_blank" href="https://eliza-community-labs.netlify.app/" style="color: #fff;text-decoration: none;translate: 0 -1px;">Chat</a>
       <a target="_blank" href="https://x.com/elizacommunity" style="scale: 0.8" alt="https://x.com/elizacommunity">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -287,6 +288,7 @@ header {
   width: 100vw;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 12px 0;
   transition: opacity 0.5s ease-in-out;
 }
