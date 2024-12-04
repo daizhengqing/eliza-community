@@ -91,7 +91,7 @@
       }"
     >
       <!-- <img src="/eliza2.png" alt="eliza" /> -->
-       <video src="/eliza.mp4" autoplay="true" loop muted></video>
+       <video @canplay="handleVideoCanPlay" src="/eliza.mp4" autoplay="true" loop muted playsinline></video>
     </div>
 
     <section :style="['font-size: 14px;line-height: 2', { opacity: showHome ? 1 : 0 }]">
@@ -218,6 +218,10 @@ function animation() {
 
   inputText();
 }
+
+function handleVideoCanPlay (e) {
+  e?.target?.play?.()
+}
 </script>
 
 <style scoped>
@@ -303,13 +307,13 @@ header {
   width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 580px) {
   .main {
     display: block;
   }
 }
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 581px){
   video {
     max-width: 50vw;
   }
