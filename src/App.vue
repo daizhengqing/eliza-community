@@ -36,7 +36,7 @@
           />
         </svg>
       </a>
-      <a target="_blank" href="https://t.me/elizactocommunity" style="scale: 0.9; translate: -1px 0px" alt="https://t.me/elizactocommunity">
+      <a target="_blank" href="https://t.me/elizactoglobal" style="scale: 0.9; translate: -1px 0px" alt="https://t.me/elizactoglobal">
         <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
         <svg
           height="24px"
