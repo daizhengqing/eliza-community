@@ -17,7 +17,7 @@
       >eliza community</span
     >
     <div style="display: flex; gap: 12px; padding-right: 20px; align-items: center;">
-      <a target="_blank" href="https://eliza-community-labs.netlify.app/" style="color: #fff;text-decoration: none;translate: 0 -1px;">Chat</a>
+      <a target="_blank" href="https://labs.elizacto.com/" style="color: #fff;text-decoration: none;translate: 0 -1px;">Chat</a>
       <a target="_blank" href="https://x.com/elizacommunity" style="scale: 0.8" alt="https://x.com/elizacommunity">
         <svg
           xmlns="http://www.w3.org/2000/svg"
